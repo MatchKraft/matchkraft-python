@@ -12,7 +12,7 @@ class MatchKraft():
 
     def highlight_duplicates(self,name,primary_list):
         params = {'jobName': name, 'primaryList': primary_list}
-        response = call_api("jobs/create_highlight_duplicates_job", params, self.apikey)
+        response = call_api("jobs/create-highlight-duplicates-job", params, self.apikey)
         return response
   
     def fuzzy_match(self,name,primary_list,secondary_list):
