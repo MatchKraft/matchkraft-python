@@ -9,9 +9,9 @@ classifiers = [
  
 setup(
   name='matchkraft',
-  version='0.0.1',
+  version='0.0.2',
   description='Fuzzy match company names',
-  long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
+  long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='',  
   author='Rene Tatua Castillo',
   author_email='info@matchkraft.com',
